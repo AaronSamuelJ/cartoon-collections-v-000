@@ -1,3 +1,5 @@
-famous_cats = ["Maru", "Lil Bub", "Grumpy Cat"]
-does_it = famous_cats.include?("Maru")
+quiet_and_loud = ["hi", "HI", "shhh", "WHAT?!"]
+does_it = quiet_and_loud.any? do |word|
+  word == word.upcase
+end
 puts does_it
