@@ -14,6 +14,6 @@ end
 
 def long_planeteer_calls(calls)
   calls.detect do |call|
-    call.size >= 4
+    call.size > 4
   end
 end
