@@ -17,3 +17,16 @@ def long_planeteer_calls(calls)
     call.size > 4
   end
 end
+
+def find_the_cheese(strings)
+  strings.detect do |string|
+    case string
+    when "cheddar"
+      string 
+    when "gouda"
+      string 
+    when "camembert"
+      string
+    end
+  end
+end
