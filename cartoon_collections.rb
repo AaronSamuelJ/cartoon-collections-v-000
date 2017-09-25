@@ -22,9 +22,9 @@ def find_the_cheese(strings)
   strings.detect do |string|
     case string
     when "cheddar"
-      string 
+      string
     when "gouda"
-      string 
+      string
     when "camembert"
       string
     end
