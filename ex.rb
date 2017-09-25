@@ -1,5 +1,5 @@
-lunch_menu = ["pizza", "sandwich", "sushi", "soup", "salad"]
-a = lunch_menu.collect do |item|
-  item + "!"
+cats_and_dogs = ["cat", "cat", "dog", "cat", "dog", "dog"]
+a = cats_and_dogs.reject do |item|
+  item == "dog"
 end
 puts a.inspect
