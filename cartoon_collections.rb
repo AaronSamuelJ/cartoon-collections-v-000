@@ -11,3 +11,9 @@ def summon_captain_planet(calls)
     call.capitalize + "!"
   end
 end
+
+def long_planeteer_calls(calls)
+  calls.detect do |call|
+    call.size >= 4
+  end
+end
