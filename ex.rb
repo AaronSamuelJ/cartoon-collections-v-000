@@ -1,5 +1,3 @@
-cats_and_dogs = ["cat", "cat", "dog", "cat", "dog", "dog"]
-a = cats_and_dogs.delete_if do |item| #//reject works too
-  item == "dog"
-end
-puts a.inspect
+famous_cats = ["Maru", "Lil Bub", "Grumpy Cat"]
+does_it = famous_cats.include?("Maru")
+puts does_it
